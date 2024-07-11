@@ -1,0 +1,17 @@
+	ORG 2000H
+	MVi A, 72H
+	MOV B, A
+	ANI 0F0H
+	RRC
+	RRC
+	RRC
+	RRC
+	MOV C, A
+	MOV A, B
+	ANI 0FH
+	RRC
+	RRC
+	RRC
+	RRC
+	ORA C
+	HLT

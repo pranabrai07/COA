@@ -1,0 +1,8 @@
+	ORG 2000H
+	MVI A,02H
+	RLC
+	MOV B, A
+	RLC
+	RLC
+	ADC B
+	HLT
